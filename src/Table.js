@@ -10,7 +10,7 @@ const TableHeader = () => {
                 <th>Email</th>
                 <th>Phone Number</th>
 
-                <th>Remove</th>
+                {/* <th>Remove</th> */}
             </tr>
         </thead>
     );
@@ -25,7 +25,7 @@ const TableBody = props => {
                 <td>{row.companyname}</td>
                 <td>{row.email}</td>
                 <td>{row.phonenumber}</td>
-                <td><button onClick={() => props.removeCharacter(index)}>Delete</button></td>
+                {/* <td><button onClick={() => props.removeCharacter(index)}>Delete</button></td> */}
             </tr>
         );
     });
